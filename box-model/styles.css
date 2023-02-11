@@ -1,0 +1,22 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1{
+  text-align:center;
+}
+
+.box-model {
+  width: 80%;
+  min-height: 400px;
+  margin:auto;
+  background-color: gray;
+}
+
+.box-model > div {
+  height: 300px;
+  width: 50%;
+  background-color: black;
+  color: white;
+}

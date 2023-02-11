@@ -1,0 +1,87 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align:center;
+}
+
+.flex-container {
+  display: flex;
+  height: 100px;
+  background-color: DodgerBlue;
+}
+
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.flex-container-2{
+  display: flex;
+  min-height: 100px;
+  background-color: DodgerBlue;
+  flex-direction: column;
+}
+
+.flex-container-2 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container-3{
+  display: flex;
+  min-height: 100px;
+  background-color: DodgerBlue;
+  flex-direction: row;
+}
+
+.flex-container-3 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.flex-container-4{
+  display: flex;
+  min-height: 100px;
+  background-color: DodgerBlue;
+  flex-direction: column-reverse;
+}
+
+.flex-container-4 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container-6{
+  display: flex;
+  min-height: 100px;
+  background-color: DodgerBlue;
+  flex-wrap:wrap;
+}
+
+.flex-container-6 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
